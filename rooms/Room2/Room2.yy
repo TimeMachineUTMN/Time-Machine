@@ -6,7 +6,11 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_39BA713C","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_579D8687","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_156A4656","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_22B53E3E","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_226BB67F","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_23F64B66","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_3FF9F0BE","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_5268432","path":"rooms/Room2/Room2.yy",},
@@ -19,10 +23,6 @@
     {"name":"inst_85AB937","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_56052F55","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_12DB3117","path":"rooms/Room2/Room2.yy",},
-    {"name":"inst_22B53E3E","path":"rooms/Room2/Room2.yy",},
-    {"name":"inst_39BA713C","path":"rooms/Room2/Room2.yy",},
-    {"name":"inst_226BB67F","path":"rooms/Room2/Room2.yy",},
-    {"name":"inst_579D8687","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
