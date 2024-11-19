@@ -2,6 +2,7 @@
 // Get Inputs
 getControls();
 
+
 // XMovement
 // Direction
 moveDir = rightKey - leftKey;
@@ -143,4 +144,42 @@ y += yspd;
 // Проверка на смерть
 if (isDead) {
     room_restart(); // Перезапуск комнаты
+}
+
+
+var tile_height = 64; // Высота плитки
+
+// Проверка на лестницу
+if (place_meeting(x, y, oLadder)) {
+    if (keyboard_check(vk_up) || keyboard_check(vk_down)) {
+        onLadder = true; // Персонаж заходит на лестницу
+        yspd = 0;        // Сбрасываем вертикальную скорость
+    }
+} else {
+    onLadder = false; // Персонаж покидает лестницу
+}
+
+// Логика движения на лестнице
+if (onLadder) {
+    grav = 0; // Отключаем гравитацию
+
+    // Движение вверх
+    if (keyboard_check(vk_up)) {
+        y -= 4;
+    }
+
+    // Движение вниз с проверкой: персонаж опускается, только если его низ соприкасается с лестницей
+    if (keyboard_check(vk_down)) {
+        // Проверяем, что низ персонажа соприкасается с лестницей
+        if (place_meeting(x, y + tile_height, oLadder)) {
+            y += 4; // Двигаемся вниз, если низ персонажа на лестнице
+        }
+        // Если под персонажем пусто (нет препятствий), разрешаем движение вниз
+        else if (!place_meeting(x, y +4, oWall)) {
+            y += 4; // Двигаемся вниз, если под персонажем пусто
+        }
+    }
+
+} else {
+    grav = 1; // Восстанавливаем гравитацию
 }

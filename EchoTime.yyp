@@ -38,6 +38,7 @@
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},},
     {"id":{"name":"oDoorNextRoom","path":"objects/oDoorNextRoom/oDoorNextRoom.yy",},},
     {"id":{"name":"oKilling","path":"objects/oKilling/oKilling.yy",},},
+    {"id":{"name":"oLadder","path":"objects/oLadder/oLadder.yy",},},
     {"id":{"name":"oLever","path":"objects/oLever/oLever.yy",},},
     {"id":{"name":"oLever1","path":"objects/oLever1/oLever1.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
@@ -64,6 +65,7 @@
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},},
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},
+    {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
@@ -79,8 +81,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

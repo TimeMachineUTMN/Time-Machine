@@ -1,4 +1,5 @@
 //Custom functions for player
+
 function setOnGround(_val =true)
 {
 	if _val ==true
@@ -45,6 +46,7 @@ coyoteJumpFrames =6;
 coyoteJumpTimer=0;
 
 
+onLadder = false; // Персонаж не на лестнице
 
 
 isDead=false
