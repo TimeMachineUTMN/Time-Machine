@@ -2,6 +2,13 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377
 function getControls()
 {
+	
+		if (in_knockback)
+{
+	// In that case we exit/stop the event here, so the player can't move.
+	show_debug_message("in_knockback3333333333333333333333333");
+	exit;
+}
 	//Direction inputs
 	rightKey = keyboard_check( ord("D") ) + keyboard_check( vk_right ) + gamepad_button_check( 0, gp_padr );
 	rightKey = clamp( rightKey, 0, 1 )

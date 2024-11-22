@@ -1,16 +1,16 @@
 /// @description Вставьте описание здесь
 // Get Inputs
-getControls();
+getControlsBox();
 
 
 // XMovement
 // Direction
-if not (in_knockback)
-{
-	moveDir = rightKey - leftKey;
+
+if (leverCooldown > 0) {
+    leverCooldown -= 1; // Снижаем таймер на каждый фрейм
+} else {
+    lastLever = noone; // Сбрасываем привязку к рычагу после окончания таймера
 }
-
-
 // Проверка на ускоряющую платформу
 if (onGround && place_meeting(x, y + 1, oSpeedPlatform))
 {
@@ -118,8 +118,8 @@ if yspd >= 0 && place_meeting(x, y + 1, oWall)
 
 
 // Проверка на пружину (срабатывание только если персонаж над пружиной)
-var spring_instance = instance_place(x, y + yspd, oSpring);
-if (spring_instance != noone && y + yspd < spring_instance.y)
+var spring_instance = instance_place(x, y, oSpring);
+if (spring_instance != noone)
 {
 
     // Добавляем прыжок от пружины
