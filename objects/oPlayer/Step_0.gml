@@ -48,7 +48,12 @@ if place_meeting(x + xspd, y, oWall)
     xspd = 0;	
 }
 
-// Move
+
+//if (onGround and moveDir!=0)
+//{
+//	// Change the instance's sprite to the walking player sprite.
+//	sprite_index = sPlayerWalk;
+//}
 x += xspd;
 
 // Y Direction
