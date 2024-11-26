@@ -42,8 +42,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite3_1",
-    "path":"sprites/Sprite3_1/Sprite3_1.yy",
+    "name":"AgrMobWalk",
+    "path":"sprites/AgrMobWalk/AgrMobWalk.yy",
   },
   "spriteMaskId":null,
   "visible":true,

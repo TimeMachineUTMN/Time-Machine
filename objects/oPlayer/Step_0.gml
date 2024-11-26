@@ -37,7 +37,7 @@ xspd = moveDir * moveSpeed * dxBoost;
 var _subPixel = .5;
 if place_meeting(x + xspd, y, oWall)
 {
-	show_debug_message("kkkkkkkkkkkkkkkkkkkkkkkkk");
+
     // Scoot up to wall precisely
     var _pixelCheck = _subPixel * sign(xspd);
     while !place_meeting(x + _pixelCheck, y, oWall)
@@ -48,7 +48,7 @@ if place_meeting(x + xspd, y, oWall)
     // Set xspd to zero to 'collide'
     xspd = 0;	
 }
-show_debug_message("xspd1: " + string(xspd));
+
 if (onGround and moveDir!=0 and sprite_index!=sPlayerWalk)
 {
 
@@ -60,8 +60,7 @@ else if(moveDir == 0 and sprite_index !=sPlayerIdle ){
 	sprite_index = sPlayerIdle;
 }
 x += xspd;
-show_debug_message("xspd2: " + string(xspd));
-show_debug_message("x: " + string(x));
+
 // Y Direction
 // Gravity
 

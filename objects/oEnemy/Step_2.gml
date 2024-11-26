@@ -1,4 +1,17 @@
-
+if (xspd < 0)
+{
+	// In that case, the horizontal scale of the instance is set to -1. This flips the sprite the other way around,
+	// making it face left.
+	image_xscale = -1;
+	image_yscale = 1;
+}
+// Otherwise - if the character is not moving left, this checks if the X velocity is greater than 0, meaning the character is moving right.
+else if (xspd > 0)
+{
+	// In that case, the horizontal scale is set to 1, so the character faces right again.
+	image_xscale = 1;
+	image_yscale = 1;
+}
 
 // The rest of the event is concerned with making the enemy turn, either when it hits a wall, or finds a ledge.
 
