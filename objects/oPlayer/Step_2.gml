@@ -1,19 +1,19 @@
 // This section flips the character's sprite depending on whether it's moving left or right.
 // This condition checks if the X velocity is less than 0, meaning the character is moving left.
-//if (xspd < 0)
-//{
-//	// In that case, the horizontal scale of the instance is set to -1. This flips the sprite the other way around,
-//	// making it face left.
-//	image_xscale = -1;
-//	image_yscale = 1;
-//}
-//// Otherwise - if the character is not moving left, this checks if the X velocity is greater than 0, meaning the character is moving right.
-//else if (xspd > 0)
-//{
-//	// In that case, the horizontal scale is set to 1, so the character faces right again.
-//	image_xscale = 1;
-//	image_yscale = 1;
-//}
+if (xspd < 0)
+{
+	// In that case, the horizontal scale of the instance is set to -1. This flips the sprite the other way around,
+	// making it face left.
+	image_xscale = -1;
+	image_yscale = 1;
+}
+// Otherwise - if the character is not moving left, this checks if the X velocity is greater than 0, meaning the character is moving right.
+else if (xspd > 0)
+{
+	// In that case, the horizontal scale is set to 1, so the character faces right again.
+	image_xscale = 1;
+	image_yscale = 1;
+}
 
 // This checks if the character's health is at, or below, 0, meaning it has been defeated.
 // In that case we want to replace the character instance with its defeated object.
@@ -53,6 +53,15 @@ if (no_hurt_frames > 0)
 	}
 }
 
+
+
+
+//show_debug_message("moveDir1ffffffffffffff: " );
+//if(moveDir == 0 and sprite_index ==sPlayerWalk )
+//{
+//	show_debug_message("moveDir1: " + string(moveDir));
+//	sprite_index =sPlayerIdle;
+//	}
 //switch (sprite_index)
 //{
 //	// Code under this case runs if the assigned sprite is 'spr_player_walk', meaning the player is walking.
@@ -60,10 +69,11 @@ if (no_hurt_frames > 0)
 //		// Set the animation speed to 1, as it may have been set to 0 during the jump animation.
 	
 //		// This checks if the X velocity is 0, meaning the player is not moving horizontally.
-//		if (xspd == 0)
+//		if (xspd = 0)
 //		{
 //			// In that case we change its sprite to the idle one.
-//			sprite_index = sIdlePlayer;
+//			show_debug_message("moveDir2: " + string(moveDir));
+//			sprite_index = sPlayerIdle;
 //		}
 	
 //		// This checks if the Y velocity of the player is greater than 1, meaning it is falling down.
@@ -95,7 +105,7 @@ if (no_hurt_frames > 0)
 //		if (onGround)
 //		{
 //			// In that case we change its sprite to the idle sprite.
-//			sprite_index = sIdlePlayer;
+//			sprite_index = sPlayerIdle;
 		
 		
 		
