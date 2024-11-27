@@ -1,1 +1,0 @@
-self.door=inst_2BFFD415

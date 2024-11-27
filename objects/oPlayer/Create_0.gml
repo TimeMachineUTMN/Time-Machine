@@ -1,3 +1,8 @@
+if (global.player_x != undefined) {
+    x = global.player_x;  // Восстанавливаем координаты
+    y = global.player_y;  // Восстанавливаем координаты
+}
+
 //Custom functions for player
 max_hp = 300;
 hp = max_hp;

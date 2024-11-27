@@ -1,1 +1,0 @@
-door=inst_57B9B2D5;
