@@ -9,10 +9,7 @@
     "name":"Объекты",
     "path":"folders/Объекты.yy",
   },
-  "parentObjectId":{
-    "name":"oPortal",
-    "path":"objects/oPortal/oPortal.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,3 +1,3 @@
 room_name =Room3;
-x_next=undefined;
-y_next=undefined;
+x_next=96;
+y_next=710;

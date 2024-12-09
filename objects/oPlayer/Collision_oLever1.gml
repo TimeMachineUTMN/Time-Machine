@@ -8,6 +8,6 @@ if (keyboard_check_pressed(ord("E")))
    else
    {
 	   other.door.open()
-	    other.sprite_index=oLeverOpen;
+	   other.sprite_index=oLeverOpen;
    }
 }

@@ -1,5 +1,5 @@
 isOpen=false
-
+isFirstOpen=true
 
 // Метод для открытия двери
 function open() {

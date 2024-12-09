@@ -1,3 +1,3 @@
-x_next=undefined;
-y_next=undefined;
+x_next=128;
+y_next=384;
 room_name=Room4
