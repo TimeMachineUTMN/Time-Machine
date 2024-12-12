@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite33",
-    "path":"sprites/Sprite33/Sprite33.yy",
+    "name":"machine",
+    "path":"sprites/machine/machine.yy",
   },
   "spriteMaskId":null,
   "visible":true,

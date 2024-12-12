@@ -74,6 +74,7 @@
     {"id":{"name":"getControls","path":"scripts/getControls/getControls.yy",},},
     {"id":{"name":"getControlsBox","path":"scripts/getControlsBox/getControlsBox.yy",},},
     {"id":{"name":"AgrMobWalk","path":"sprites/AgrMobWalk/AgrMobWalk.yy",},},
+    {"id":{"name":"machine","path":"sprites/machine/machine.yy",},},
     {"id":{"name":"oLeverClose","path":"sprites/oLeverClose/oLeverClose.yy",},},
     {"id":{"name":"oLeverOpen","path":"sprites/oLeverOpen/oLeverOpen.yy",},},
     {"id":{"name":"sChestClose","path":"sprites/sChestClose/sChestClose.yy",},},
